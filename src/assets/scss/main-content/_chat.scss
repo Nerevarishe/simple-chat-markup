@@ -1,0 +1,37 @@
+.main {
+  &__chat-cards-wrapper {
+    padding: rem(16px 25px);
+  }
+
+  &__request-card {
+    @include chat-message-card;
+  }
+
+  &__request-card-header {
+    display: flex;
+  }
+
+  &__request-card-avatar-wrapper {
+    margin-right: rem(8px);
+  }
+
+  &__request-card-username {
+    @include regular-10-black;
+  }
+
+  &__request-card-message-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__request-card-message {
+    max-width: rem(210px);
+    margin: -15px 0 0;
+    @include regular-10-black;
+    text-align: justify;
+  }
+
+  &__response-card {
+    @include chat-message-card;
+  }
+}

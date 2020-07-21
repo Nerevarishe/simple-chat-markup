@@ -1,0 +1,13 @@
+@mixin base-card {
+  background: $white-color;
+  border: 1px solid $black-color;
+  box-shadow: 0 4px 10px $shadow-color;
+}
+
+@mixin chat-message-card {
+  @include base-card;
+  min-width: 270px;
+  min-height: 156px;
+  padding: rem(8px);
+  margin-bottom: rem(16px);
+}

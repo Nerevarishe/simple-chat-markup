@@ -14,6 +14,7 @@ function compileSass(done) {
 }
 
 function watch(done) {
+  compileSass(done);
   browserSync.init({
     server: {
       baseDir: "./src",
