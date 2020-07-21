@@ -1,0 +1,42 @@
+.main {
+  &__login-form-wrapper {
+    margin: rem(153px 25px 0 25px);
+  }
+
+  &__login-form-inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: rem(186px);
+  }
+
+  &__login-input,
+  &__password-input {
+    @include base-input;
+    width: 100%;
+    margin-bottom: rem(24px);
+  }
+
+  &__login-form-button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__login-form-button {
+    @include base-button;
+    min-width: 99px;
+    width: rem(99px);
+    min-height: 25px;
+    height: rem(25px);
+    border-radius: 4px;
+    padding: rem(6px 0 7px 0);
+    background: $black-color;
+  }
+
+  &__login-form-button-text {
+    display: block;
+    width: 100%;
+    @include regular_14_white;
+    text-align: center;
+  }
+}

@@ -1,0 +1,12 @@
+@mixin base-input {
+  width: rem(270px);
+  height: rem(33px);
+  border: 1px solid $black-color;
+  background: $white-color;
+  @include regular-14-black;
+  text-align: center;
+  outline: none;
+  &::placeholder {
+    color: $gray-color;
+  }
+}

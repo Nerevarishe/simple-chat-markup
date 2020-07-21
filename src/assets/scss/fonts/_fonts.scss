@@ -25,6 +25,13 @@
   color: $black-color;
 }
 
+@mixin regular-14-black {
+  @include base-font;
+  font-size: 14px;
+  line-height: 16px;
+  color: $black-color;
+}
+
 @mixin regular-10-gray {
   @include base-font;
   font-size: 10px;
@@ -44,5 +51,12 @@
   @include base-font;
   font-size: 10px;
   line-height: 12px;
+  color: $white-color;
+}
+
+@mixin regular_14_white {
+  @include base-font;
+  font-size: 14px;
+  line-height: 14px;
   color: $white-color;
 }
