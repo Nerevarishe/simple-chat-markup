@@ -1,3 +1,26 @@
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 320px;
+  height: 45px;
 
+  &__styled {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background: $black-color;
+  }
+
+  &__chat-button-wrapper,
+  &__people-button-wrapper,
+  &__chat-list-button-wrapper {
+    margin: rem(3px 0 2px 0);
+  }
+
+  &__chat-button,
+  &__people-button,
+  &__chat-list-button {
+    @include base-button;
+  }
 }

@@ -1,0 +1,48 @@
+@mixin base-font {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin regular-18-black {
+  @include base-font;
+  font-size: 18px;
+  line-height: 21px;
+  color: $black-color;
+}
+
+@mixin regular-14-black {
+  @include base-font;
+  font-size: 14px;
+  line-height: 16px;
+  color: $black-color;
+}
+
+@mixin regular-10-black {
+  @include base-font;
+  font-size: 10px;
+  line-height: 12px;
+  color: $black-color;
+}
+
+@mixin regular-10-gray {
+  @include base-font;
+  font-size: 10px;
+  line-height: 12px;
+  color: $gray-color;
+}
+
+@mixin bold_14_white {
+  @include base-font;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white-color;
+}
+
+@mixin regular_10_white {
+  @include base-font;
+  font-size: 10px;
+  line-height: 12px;
+  color: $white-color;
+}

@@ -1,3 +1,35 @@
 .header {
-  
+  position: fixed;
+  width: 320px;
+  height: 45px;
+
+  &__styled {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: $black-color;
+  }
+
+  &__avatar-wrapper {
+    margin: rem(5px 8px);
+  }
+
+  &__username-wrapper {
+    margin-right: rem(168px);
+    justify-items: flex-start;
+  }
+
+  &__username {
+    @include bold_14_white;
+  }
+
+  &__logout-button-wrapper {
+    margin: rem(10px 16px 10px 0);
+    justify-self: end;
+  }
+
+  &__logout-button {
+    @include base-button;
+  }
 }

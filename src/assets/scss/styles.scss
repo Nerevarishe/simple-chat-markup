@@ -1,6 +1,8 @@
 @import "../lib/css/normalize";
 @import "../lib/scss/_rem";
 @import "./vars";
+@import "./fonts/fonts";
+@import "./mixins/buttons";
 
 // Edit defaults
 @import "defaults";
