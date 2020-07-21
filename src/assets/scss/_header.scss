@@ -1,7 +1,8 @@
 .header {
   position: fixed;
-  width: 320px;
-  height: 45px;
+  min-width: rem(320px);
+  width: 100vw;
+  height: rem(45px);
 
   &__styled {
     width: 100%;
@@ -16,8 +17,8 @@
   }
 
   &__username-wrapper {
-    margin-right: rem(168px);
-    justify-items: flex-start;
+    text-wrap: none;
+    white-space: nowrap;
   }
 
   &__username {
@@ -25,8 +26,10 @@
   }
 
   &__logout-button-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
     margin: rem(10px 16px 10px 0);
-    justify-self: end;
   }
 
   &__logout-button {
