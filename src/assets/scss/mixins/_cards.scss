@@ -10,4 +10,21 @@
   min-height: 156px;
   padding: rem(8px);
   margin-bottom: rem(16px);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@mixin small-card {
+  @include base-card;
+  min-width: 270px;
+  min-height: 51px;
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(8px);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }

@@ -1,0 +1,17 @@
+.main {
+  &__peoples-list-wrapper {
+    padding: rem(16px 25px);
+  }
+
+  &__person-card {
+    @include small-card;
+  }
+
+  &__person-card-avatar-wrapper {
+    margin: rem(8px);
+  }
+
+  &__person-card-username {
+    @include regular-18-black;
+  }
+}
