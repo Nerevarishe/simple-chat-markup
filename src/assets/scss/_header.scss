@@ -2,7 +2,7 @@
   position: fixed;
   min-width: rem(320px);
   width: 100vw;
-  height: rem(45px);
+  min-height: rem(45px);
 
   &__styled {
     width: 100%;
@@ -17,12 +17,15 @@
   }
 
   &__username-wrapper {
-    text-wrap: none;
     white-space: nowrap;
   }
 
   &__username {
     @include bold_14_white;
+  }
+
+  &__sidebar {
+    display: none;
   }
 
   &__logout-button-wrapper {

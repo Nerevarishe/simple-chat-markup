@@ -6,57 +6,57 @@
 
 @mixin regular-18-black {
   @include base-font;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: rem(18px);
+  line-height: rem(21px);
   color: $black-color;
 }
 
 @mixin regular-14-black {
   @include base-font;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: rem(14px);
+  line-height: rem(16px);
   color: $black-color;
 }
 
 @mixin regular-10-black {
   @include base-font;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: rem(10px);
+  line-height: rem(12px);
   color: $black-color;
 }
 
 @mixin regular-14-black {
   @include base-font;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: rem(14px);
+  line-height: rem(16px);
   color: $black-color;
 }
 
 @mixin regular-10-gray {
   @include base-font;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: rem(10px);
+  line-height: rem(12px);
   color: $gray-color;
 }
 
 @mixin bold_14_white {
   @include base-font;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: rem(14px);
+  line-height: rem(16px);
   color: $white-color;
 }
 
 @mixin regular_10_white {
   @include base-font;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: rem(10px);
+  line-height: rem(12px);
   color: $white-color;
 }
 
 @mixin regular_14_white {
   @include base-font;
-  font-size: 14px;
-  line-height: 14px;
+  font-size: rem(14px);
+  line-height: rem(14px);
   color: $white-color;
 }

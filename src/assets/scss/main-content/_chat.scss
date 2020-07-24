@@ -28,10 +28,18 @@
 
   &__request-card-message,
   &__response-card-message {
-    max-width: rem(210px);
-    margin: rem(-15px 0 0);
+    min-width: rem(210px);
+    margin-top: rem(-15px);
     @include regular-10-black;
     text-align: justify;
+  }
+
+  &__request-card-message {
+    margin-left: rem(51px);
+  }
+
+  &__response-card-message {
+    margin-right: rem(51px);
   }
 
   &__response-card-header {
