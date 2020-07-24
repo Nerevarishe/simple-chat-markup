@@ -3,7 +3,8 @@
     padding: rem(16px 25px);
   }
 
-  &__request-card {
+  &__request-card,
+  &__response-card {
     @include chat-message-card;
   }
 
@@ -15,7 +16,8 @@
     margin-right: rem(8px);
   }
 
-  &__request-card-username {
+  &__request-card-username,
+  &__response-card-username {
     @include regular-10-black;
   }
 
@@ -24,14 +26,20 @@
     justify-content: flex-end;
   }
 
-  &__request-card-message {
+  &__request-card-message,
+  &__response-card-message {
     max-width: rem(210px);
-    margin: -15px 0 0;
+    margin: rem(-15px 0 0);
     @include regular-10-black;
     text-align: justify;
   }
 
-  &__response-card {
-    @include chat-message-card;
+  &__response-card-header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &__response-card-avatar-wrapper {
+    margin-left: rem(8px);
   }
 }
