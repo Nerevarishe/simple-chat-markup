@@ -50,4 +50,26 @@
   &__response-card-avatar-wrapper {
     margin-left: rem(8px);
   }
+
+  &__input-chat-message-wrapper {
+    position: fixed;
+    bottom: rem(45px);
+    width: 100%;
+  }
+
+  &__chat-message-input {
+    @include base-input;
+    text-align: left;
+    width: 100%;
+  }
+
+  &__send-chat-message-button-wrapper {
+    position: absolute;
+    right: 12px;
+    bottom: 2px;
+  }
+
+  &__send-chat-message-button {
+    @include base-button;
+  }
 }
