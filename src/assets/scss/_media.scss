@@ -91,6 +91,17 @@
     &__response-card-message {
       margin-top: rem(15px) + rem(-15px);
     }
+
+    &__input-chat-message-wrapper {
+      bottom: 0;
+      width: calc(100% - 144px);
+      left: 144px;
+    }
+
+    &__send-chat-message-icon {
+      width: 28px;
+      height: 28px;
+    }
   }
 
   .footer {

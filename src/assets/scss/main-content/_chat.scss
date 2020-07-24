@@ -65,8 +65,8 @@
 
   &__send-chat-message-button-wrapper {
     position: absolute;
-    right: 12px;
-    bottom: 2px;
+    right: rem(12px);
+    bottom: rem(2px);
   }
 
   &__send-chat-message-button {
