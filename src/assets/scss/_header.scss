@@ -2,7 +2,8 @@
   position: fixed;
   min-width: rem(320px);
   width: 100vw;
-  min-height: rem(45px);
+  //min-height: rem(45px);
+  height: rem(45px);
 
   &__styled {
     width: 100%;

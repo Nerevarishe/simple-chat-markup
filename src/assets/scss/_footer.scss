@@ -3,11 +3,12 @@
   bottom: 0;
   min-width: 320px;
   width: 100vw;
-  height: 45px;
+  height: rem(45px);
 
   &__styled {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 100%;
     background: $black-color;
