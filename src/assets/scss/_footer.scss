@@ -25,4 +25,11 @@
   &__chat-list-button {
     @include base-button;
   }
+
+  &__chat-icon,
+  &__people-icon,
+  &__chat-list-icon {
+    width: rem(40px);
+    height: rem(40px);
+  }
 }
